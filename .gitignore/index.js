@@ -6,7 +6,7 @@ var prefix = ("*");
 
 bot.on('ready', () => {
 	bot.user.setGame(bot.guilds.size + " serveurs | *aide");
-	bot.user.setUsername("⚡Rainbow+");
+	bot.user.setUsername("FortniteTrade 🇫🇷");
 });
 
 
