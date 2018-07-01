@@ -4,7 +4,7 @@ const request = require('request');
 const client = require('discord-rich-presence')('328514801124900866');
  
 
-var prefix = ("*");
+var prefix = ("fnt ");
 
 bot.on('ready', () => {
 	bot.user.setGame("Pour vous servir !");
