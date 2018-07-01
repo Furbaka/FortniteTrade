@@ -3,15 +3,7 @@ const bot = new Discord.Client();
 const request = require('request');
 const client = require('discord-rich-presence')('328514801124900866');
  
-client.updatePresence({
-  state: 'slithering',
-  details: '🐍',
-  startTimestamp: Date.now(),
-  endTimestamp: Date.now() + 1337,
-  largeImageKey: 'snek_large',
-  smallImageKey: 'snek_small',
-  instance: true,
-});
+
 var prefix = ("*");
 
 bot.on('ready', () => {
